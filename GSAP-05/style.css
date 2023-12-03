@@ -1,0 +1,110 @@
+@font-face {
+    font-family: header;
+    src: url(./Heading-Now-Variable.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    color: white;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#loader{
+    height: 100vh;
+    width: 100vw;
+    z-index: 99;
+    background-color: antiquewhite;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loader h1{
+    font-size: 13vh;
+    color: black;
+    font-family: header;
+    font-stretch: ultra-expanded;
+}
+
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 0 2vw;
+    border-bottom: 2px solid #fff;
+}
+
+nav #logo{
+    font-size: 10vh;
+    font-stretch: ultra-expanded;
+    text-transform: uppercase;
+    font-family: header;
+}
+
+nav #right{
+    font-size: 8vh;
+    font-stretch: ultra-expanded;
+    text-transform: uppercase;
+    font-family: header;
+    float: right;
+}
+
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+#page1 h1{
+    text-transform: uppercase;
+    font-size: 40vw;
+    font-family: header;
+    white-space: nowrap;
+    font-stretch: 250%;
+    font-weight: 999;
+    padding-left: 80px;
+    margin-top: -10vh;
+}
+
+#page1 h1 span{
+    margin-left: 30px;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    justify-content: center;
+    display: block;
+}
+
+#page2 h3{
+    color: white;
+    
+}
+
+#page2 video{
+    height: 70vh;
+    width: 65vw;
+    margin-top: -50px;
+    position: relative;
+    object-fit: cover;
+    display: block;
+    margin: -70px auto;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}

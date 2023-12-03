@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    background-color: cyan;
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    text-align: center;
+    border-radius: 50px;
+}
+
+h1{
+    color: rgb(156, 99, 196);
+    font-size: 50px;
+}
+
+h2{
+    color: coral;
+    font-size: 40px;
+}
+
+h3{
+    color: rgb(0, 86, 139);
+    font-size: 30px;
+}
+
